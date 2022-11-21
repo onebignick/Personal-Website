@@ -1,0 +1,80 @@
+.projects {
+    margin: auto;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.projects-title {
+    font-size: 40px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+.exerpt {
+    width: 50%;
+    margin: auto;
+}
+
+img {
+    margin: auto;
+}
+
+.project-writing {
+    padding-top: 50px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.project-title {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.project-desc {
+    font-family: 'Didact Gothic', sans-serif;
+    width: 50%;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto
+}
+
+.image-library {
+    gap: 7px;
+    display: flex;
+}
+
+.python-svg {
+    width: 30px;
+    height: 30px;
+}
+
+.js-svg {
+    width: 30px;
+    height: 30px;
+}
+
+.html-svg {
+    width: 30px;
+    height: 30px;
+}
+
+.css-svg {
+    width: 30px;
+    height: 30px;
+}
+
+.flask-svg {
+    width: 30px;
+    height: 30px;
+}
+
+.solidity-svg {
+    width: 30px;
+    height: 30px;
+}
