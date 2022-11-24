@@ -1,4 +1,4 @@
-import Navbar from './components/navbar';
+import NavbarReact from './components/navbar';
 import Landing from './components/landing';
 import Projects from './components/projects';
 import Contact from './components/contact';
@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <Navbar />
+      <NavbarReact sticky="top" />
       <Landing />
       <Projects />
       <Contact />
