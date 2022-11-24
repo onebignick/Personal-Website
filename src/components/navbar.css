@@ -6,7 +6,7 @@
     background-color: #FAF9F6;
 }
 
-#links {
+Nav.Link {
     display: flex;
     margin: auto;
     justify-content: space-between;
