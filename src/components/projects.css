@@ -25,7 +25,7 @@ img {
 
 .project-writing {
     padding-top: 50px;
-    width: 70%;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
@@ -38,7 +38,7 @@ img {
 
 .project-desc {
     font-family: 'Didact Gothic', sans-serif;
-    width: 50%;
+    width: 40vw;
     padding-top: 20px;
     text-align: center;
     margin: auto
@@ -47,6 +47,8 @@ img {
 .image-library {
     gap: 7px;
     display: flex;
+    width: 20vw;
+    margin: auto;
 }
 
 .python-svg {

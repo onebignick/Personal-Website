@@ -43,7 +43,6 @@ const Projects = () => {
             <div className='project-writing'>
                 <div className='project-title'>Go Big Mode (Nov 2022)</div>
                 <div className='project-desc'>
-                    <img src={healthupPhoto} alt=""></img>
                     <br></br>
                     <p>
                         Go Big Mode (GBM) is a decentralised user ID management system. Users are entered into the
