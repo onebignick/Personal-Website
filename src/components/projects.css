@@ -47,36 +47,16 @@ img {
 .image-library {
     gap: 7px;
     display: flex;
-    width: 20vw;
+    justify-content: center;
     margin: auto;
+    width: 20vw;
 }
 
-.python-svg {
-    width: 30px;
-    height: 30px;
+.healthup-img {
+    max-width: 100%
 }
 
-.js-svg {
-    width: 30px;
-    height: 30px;
-}
-
-.html-svg {
-    width: 30px;
-    height: 30px;
-}
-
-.css-svg {
-    width: 30px;
-    height: 30px;
-}
-
-.flask-svg {
-    width: 30px;
-    height: 30px;
-}
-
-.solidity-svg {
+.logo-svg {
     width: 30px;
     height: 30px;
 }

@@ -10,8 +10,8 @@ export default function NavbarReact() {
         <Navbar bg="#" expand="lg">
             <Container>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
-                    <Nav className="justify-content-center">
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav>
                         <Nav.Link href="#landing-page">home</Nav.Link>
                         <Nav.Link href="#projects">projects</Nav.Link>
                         <Nav.Link href="#contact">contact</Nav.Link>

@@ -6,6 +6,7 @@ import flaskSVG from "../assets/icons/flask.svg";
 import htmlSVG from "../assets/icons/html.svg";
 import soliditySVG from "../assets/icons/solidity.svg";
 import cssSVG from "../assets/icons/css.svg";
+import NavButton from './navbutton';
 
 const Projects = () => {
     return (
@@ -19,10 +20,31 @@ const Projects = () => {
             </div>
 
             <div className='project-writing'>
+                <div className='project-title'>Personal Website (Nov 2022)</div>
+                <div className='project-desc'>
+                    <NavButton name="source code" link="https://github.com/onebignick/portfolio" />
+                    <NavButton name="website" link="https://onebignick.github.io" />
+                    <br></br>
+                    <p>
+                        My own personal website to document my progress as a programmer. Built
+                        using ReactJS with React Bootstrap and EmailJS for contact form.
+                    </p>
+                    <flex className="image-library">
+                        <img className='logo-svg' src={htmlSVG} alt="" />
+                        <img className='logo-svg' src={cssSVG} alt="" />
+                        <img className='logo-svg' src={javascriptSVG} alt="" />
+                    </flex>
+                </div>
+            </div>
+
+
+            <div className='project-writing'>
                 <div className='project-title'>HealthUP (Nov 2022)</div>
                 <div className='project-desc'>
-                    <img src={healthupPhoto} alt=""></img>
-                    <br></br>
+                    <NavButton name="source code" link="https://github.com/onebignick/HackConcode2022" />
+                    <br />
+                    <img className='healthup-img' src={healthupPhoto} alt=""></img>
+                    <br />
                     <p>
                         HealthUP is a webapp that aims to help users manage their health options.
                         It runs on a decentralised user ID management system. Users are entered into
@@ -30,12 +52,12 @@ const Projects = () => {
                         HealthUP currently supports creation of user profiles, booking appointments and updating of user info
                     </p>
                     <flex className="image-library">
-                        <img className='html-svg' src={htmlSVG} alt="" />
-                        <img className='css-svg' src={cssSVG} alt="" />
-                        <img className='js-svg' src={javascriptSVG} alt="" />
-                        <img className='flask-svg' src={flaskSVG} alt="" />
-                        <img className='python-svg' src={pythonSVG} alt="" />
-                        <img className='solidity-svg' src={soliditySVG} alt="" />
+                        <img className='logo-svg' src={htmlSVG} alt="" />
+                        <img className='logo-svg' src={cssSVG} alt="" />
+                        <img className='logo-svg' src={javascriptSVG} alt="" />
+                        <img className='logo-svg' src={flaskSVG} alt="" />
+                        <img className='logo-svg' src={pythonSVG} alt="" />
+                        <img className='logo-svg' src={soliditySVG} alt="" />
                     </flex>
                 </div>
             </div>
@@ -43,6 +65,7 @@ const Projects = () => {
             <div className='project-writing'>
                 <div className='project-title'>Go Big Mode (Nov 2022)</div>
                 <div className='project-desc'>
+                    <NavButton name="source code" link="https://github.com/onebignick/STC-2022" />
                     <br></br>
                     <p>
                         Go Big Mode (GBM) is a decentralised user ID management system. Users are entered into the
@@ -51,10 +74,10 @@ const Projects = () => {
                         user roles, sessions and deletion of users.
                     </p>
                     <flex className="image-library">
-                        <img className='html-svg' src={htmlSVG} alt="" />
-                        <img className='css-svg' src={cssSVG} alt="" />
-                        <img className='python-svg' src={pythonSVG} alt="" />
-                        <img className='solidity-svg' src={soliditySVG} alt="" />
+                        <img className='logo-svg' src={htmlSVG} alt="" />
+                        <img className='logo-svg' src={cssSVG} alt="" />
+                        <img className='logo-svg' src={pythonSVG} alt="" />
+                        <img className='logo-svg' src={soliditySVG} alt="" />
                     </flex>
                 </div>
             </div>
