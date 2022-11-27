@@ -1,6 +1,6 @@
 {
-  "homepage": "http://onebignick.github.io",
-  "name": "portfolio",
+  "homepage": "http://onebignick.github.io/me",
+  "name": "me",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
