@@ -22,7 +22,7 @@ const Projects = () => {
             <div className='project-writing'>
                 <div className='project-title'>Personal Website (Nov 2022)</div>
                 <div className='project-desc'>
-                    <NavButton name="source code" link="https://github.com/onebignick/portfolio" />
+                    <NavButton name="source code" link="https://github.com/onebignick/personal-website" />
                     <NavButton name="website" link="https://onebignick.github.io" />
                     <br></br>
                     <p>
