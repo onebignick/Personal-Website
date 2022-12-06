@@ -20,6 +20,23 @@ const Projects = () => {
             </div>
 
             <div className='project-writing'>
+                <div className='project-title'>Quiz App (Nov 2022)</div>
+                <div className='project-desc'>
+                    <NavButton name="source code" link="https://github.com/onebignick/quiz-app" />
+                    <br></br>
+                    <p>
+                        A countries quiz built using MongoDB, ExpressJS, ReactJS and Node.js (MERN).
+                        Used SCSS for styling pages.
+                    </p>
+                    <flex className="image-library">
+                        <img className='logo-svg' src={htmlSVG} alt="" />
+                        <img className='logo-svg' src={cssSVG} alt="" />
+                        <img className='logo-svg' src={javascriptSVG} alt="" />
+                    </flex>
+                </div>
+            </div>
+
+            <div className='project-writing'>
                 <div className='project-title'>Personal Website (Nov 2022)</div>
                 <div className='project-desc'>
                     <NavButton name="source code" link="https://github.com/onebignick/me" />
