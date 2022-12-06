@@ -26,7 +26,8 @@ const Projects = () => {
                     <br></br>
                     <p>
                         A countries quiz built using MongoDB, ExpressJS, ReactJS and Node.js (MERN).
-                        Used SCSS for styling pages.
+                        Used SCSS for styling pages and python to load the data into MongoDB.
+                        This application demonstrates CRUD actions on MERN stack. 
                     </p>
                     <flex className="image-library">
                         <img className='logo-svg' src={htmlSVG} alt="" />
